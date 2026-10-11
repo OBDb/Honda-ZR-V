@@ -1,0 +1,74 @@
+command_id: DB33.010C
+test_cases:
+- expected_values:
+    RPM: 0
+  response: 18DAF11004410C0000
+- expected_values:
+    RPM: 895
+  response: 18DAF11004410C0DFC
+- expected_values:
+    RPM: 684
+  response: 18DAF1EF04410C0AB0
+- expected_values:
+    RPM: 710
+  response: |-
+    18DAF1EF04410C0B18
+    18DAF11E04410C0B38
+    18DAF11004410C0B18
+- expected_values:
+    RPM: 727
+  response: |-
+    18DAF1EF04410C0B5C
+    18DAF11004410C0B50
+    18DAF11E04410C0B5C
+- expected_values:
+    RPM: 748
+  response: |-
+    18DAF1EF04410C0BA0
+    18DAF11004410C0BAC
+    18DAF11E04410C0BB0
+- expected_values:
+    RPM: 767
+  response: |-
+    18DAF1EF04410C0C08
+    18DAF11004410C0C00
+    18DAF11E04410C0BFC
+- expected_values:
+    RPM: 833
+  response: |-
+    18DAF1EF04410C0D20
+    18DAF11004410C0D18
+    18DAF11E04410C0D04
+- expected_values:
+    RPM: 963
+  response: |-
+    18DAF1EF04410C0EFC
+    18DAF11E04410C0EE4
+    18DAF11004410C0F0C
+- expected_values:
+    RPM: 967
+  response: |-
+    18DAF1EF04410C0F00
+    18DAF11004410C0EF4
+    18DAF11E04410C0F1C
+- expected_values:
+    RPM: 977
+  response: |-
+    18DAF1EF04410C0F54
+    18DAF11E04410C0FDC
+    18DAF11004410C0F44
+- expected_values:
+    RPM: 1586
+  response: |-
+    18DAF1EF04410C1818
+    18DAF11E04410C100C
+    18DAF11004410C18C8
+- expected_values:
+    RPM: 4509
+  response: |-
+    18DAF1EF04410C468C
+    18DAF11E04410C4704
+    18DAF11004410C4674
+- expected_values:
+    RPM: 5760
+  response: 18DAF1EF04410C5A00
