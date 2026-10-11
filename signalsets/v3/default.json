@@ -221,7 +221,7 @@
   "signals": [
     {"id": "ZRV_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7028"}, "freq": 5,
+{ "hdr": "DA60", "rax": "60", "fcm1": true, "cmd": {"22": "7028"}, "freq": 5, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "ZRV_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
   ]},
