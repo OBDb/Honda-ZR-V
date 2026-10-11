@@ -1,0 +1,75 @@
+command_id: DB33.010D
+test_cases:
+- expected_values:
+    VSS: 0
+  response: 18DAF11003410D00
+- expected_values:
+    VSS: 0
+  response: 18DAF1EF03410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF10103410D00
+    18DAF10203410D00
+    18DAF10603410D00
+    18DAF10E03410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF10203410D00
+    18DAF10103410D00
+    18DAF10603410D00
+    18DAF10E03410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF10603410D00
+    18DAF10103410D00
+    18DAF10203410D00
+    18DAF10E03410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF10E03410D00
+    18DAF10103410D00
+    18DAF10203410D00
+    18DAF10603410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF11003410D00
+    18DAF11E03410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF1EF03410D00
+    18DAF11E03410D00
+    18DAF11003410D00
+- expected_values:
+    VSS: 10
+  response: |-
+    18DAF1EF03410D0A
+    18DAF10203410D0A
+    18DAF10103410D0A
+    18DAF10603410D0A
+    18DAF10E03410D0A
+- expected_values:
+    VSS: 15
+  response: |-
+    18DAF1EF03410D0F
+    18DAF11003410D0F
+    18DAF11E03410D0F
+- expected_values:
+    VSS: 112
+  response: |-
+    18DAF1EF03410D71
+    18DAF11003410D70
+    18DAF11E03410D70
+- expected_values:
+    VSS: 139
+  response: 18DAF1EF03410D8B
